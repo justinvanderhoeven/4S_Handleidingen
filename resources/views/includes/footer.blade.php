@@ -1,6 +1,8 @@
 
 <footer>
+  <div class="col-md-4"> 
 	© {{ __('misc.copyright') }}
+  </div>
 </footer>
 
 
@@ -20,9 +22,10 @@
 <!-- Einde analytics code -->
 
 <script language="Javascript" type="text/javascript"> 
- <!-- 
+
  if (top.location!= self.location) { 
   top.location = self.location.href
  } 
-//--> 
+
+
 </script>
