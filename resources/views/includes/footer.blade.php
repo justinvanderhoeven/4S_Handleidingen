@@ -1,6 +1,5 @@
-
-<footer>
-  <div class="col-md-4"> 
+<footer class="footer">
+  <div class="footer-content"> 
 	© {{ __('misc.copyright') }}
   </div>
 </footer>

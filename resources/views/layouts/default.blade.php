@@ -36,15 +36,13 @@
 
         </div>
 
-        <div class="row">
-            @include('includes.footer')
-        </div>
-
-    </div>
-
+     </div>
 
 </div>
 
+<div class="row">
+            @include('includes.footer')
+</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->

@@ -7,21 +7,21 @@
 @endsection
 
 @section('content')
+     
+        <h1>
+            @section('title')
+                {{ __('misc.all_brands') }}
+            @show
+        </h1>
 
-    <h1>
-        @section('title')
-            {{ __('misc.all_brands') }}
-        @show
-    </h1>
 
+        <?php
+            $size = count($brands);
+            $columns = 3;
+            $chunk_size = ceil($size / $columns);
+        ?>
 
-    <?php
-    $size = count($brands);
-    $columns = 3;
-    $chunk_size = ceil($size / $columns);
-    ?>
-
-    <div class="container">
+        <div class="container">
         <!-- Example row of columns -->
         <div class="row">
 
