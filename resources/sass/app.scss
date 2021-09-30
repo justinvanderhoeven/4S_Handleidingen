@@ -30,6 +30,27 @@
     color: #ccc;
     content: "/\00a0";
 }
+//======================= body homepage =====================//
+.row{
+    display: flex;
+    justify-content: center;
+}
+.container p{
+    font-size: x-large;
+    font-weight: bold;
+}
+//====================== brand list =========================//
+.col-md-4{
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+}
+.col-md-4 a{
+    color: red;
+}
+.col-md-4 a:hover{
+    color: blue;
+}
+//========================= footer ==========================//
 .footer{
     display: flex;
     justify-content: center;
@@ -37,9 +58,4 @@
     bottom: 30px;
     height: 30px;
     width: 100%;
-}
-
-.row{
-    display: flex;
-    justify-content: center;
 }
