@@ -50,6 +50,17 @@
 .col-md-4 a:hover{
     color: blue;
 }
+//======================= manual download page ===============//
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-container a{
+    color: red;
+}
+.grid-container a:hover{
+    color: blue;
+}
 //========================= footer ==========================//
 .footer{
     display: flex;
