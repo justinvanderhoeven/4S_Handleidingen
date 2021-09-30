@@ -1,7 +1,25 @@
 <footer class="footer">
-  <div class="footer-content"> 
-	© {{ __('misc.copyright') }}
-  </div>
+    © {{ __('misc.copyright') }}
+  <ul class="footer-grid">
+     <li>
+        <a href="">over ons</a>
+      </li>
+      <li>
+        <a href="">contact</a>
+      </li>
+      <li>  
+        <a href="">Instagram</a>
+      </li>
+      <li>    
+        <a href="">facebook</a>
+      </li>     
+      <li>
+        <a href="">Gmail</a>
+      </li>
+      <li>  
+        <a href="">twitter</a>
+      </li>
+    </ul>
 </footer>
 
 
