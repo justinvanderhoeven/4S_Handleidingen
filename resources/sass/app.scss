@@ -48,7 +48,7 @@
     color: red;
 }
 .col-md-4 a:hover{
-    color: blue;
+    color: #3490dc;
 }
 //======================= manual download page ===============//
 .grid-container{
@@ -59,9 +59,23 @@
     color: red;
 }
 .grid-container a:hover{
-    color: blue;
+    color: #3490dc;
+}
+.manual-button{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.manual-button a{
+    color: red;
+}
+.manual-button a:hover{
+    color: #3490dc;
 }
 //========================= footer ==========================//
+footer {
+    color: e9ecef;
+}
 .footer{
     display: flex;
     justify-content: center;
@@ -78,14 +92,11 @@
 .footer-grid li{
     margin-left: 5px;
 }
-.footer-grid li:hover{
-    color: blue;
-}
 .footer-grid a{
     color: red;
 }
 .footer-grid a:hover{
-    color: blue;
+    color: #3490dc;
 }
 ::marker{
     padding-left: 5px;
