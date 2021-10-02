@@ -1,5 +1,7 @@
 <footer class="footer">
+  <div class="copyright">
     © {{ __('misc.copyright') }}
+  </div>
   <ul class="footer-grid">
      <li>
         <a href="">over ons</a>
